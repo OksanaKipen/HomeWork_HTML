@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("image 4.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wood{
+    width: 35vw;
+    height: 26vw;
+}
+.white{
+    width: 35vw;
+    height: 26vw;
+    background-color: #FAF9F7;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+h1{
+    font-weight: 400;
+    font-size: 45px;
+}
+.button{
+    width: 27vw;
+    height: 5vw;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("rectangle 4.png");
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    width: 63vw;
+    font-weight: 400;
+    font-size: 35px;
+}
+.collage{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("rectangle 4.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button3 {
+    width: 27vw;
+    height: 5vw;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #6B6666;
+    font-weight: 400;
+    font-size: 30px;
+}
+.box{
+    width: 30vw;
+    height: 46vw;
+    background-color: rgba(83, 83, 83, 0.4);
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nature{
+    height: 14vw;
+    width: 27vw;
+    display: flex;
+}
+

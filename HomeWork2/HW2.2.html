@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>boxsix</title>
+
+    <style>
+        .main{
+            width: 100%;
+            height: 500px;
+            background-color: burlywood;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: linear 1s;
+        }
+        .box:hover{
+            background-color: chartreuse;
+            transition: linear 1s;
+            border-radius: 50%;
+        }
+        .red:hover{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box red"></div>
+        <div class="box"></div>
+        <div class="box red"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+h2 {
+    color: darkgray;
+    font-size: 20px;
+    margin: 25px 0;
+}
+svg{
+    width: 25px;
+    margin-right: 5px;
+}
+form{
+    background-color: white;
+    width: 30vw;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.enter{
+    width: 90%;
+    height: 75%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 40%;
+    margin: 5vh 0;
+}
+.field{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: azure;
+    background-color: rgba(245, 248, 247);
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+.field:hover{
+    border-color: aliceblue;
+    border-width: 1px;
+}
+#buton{
+    height: 40px;
+    width: 310px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightskyblue;
+    color: azure;
+    font-size: 20px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registr{
+    width: 90%;
+    height: 15%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a1{
+    color: lightskyblue;
+}

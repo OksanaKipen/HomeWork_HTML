@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: lightcyan;
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+div{
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    font-size: 16px;
+}
+hr{
+    width: 100%;
+    background-color: darkgray;
+}
+p{
+    margin-left: 2vw;
+    margin-top: 0;
+}
+input{
+    width: 27vw;
+    height: 5vh;
+    padding-left: 1vw;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+#signup{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#button{
+    width: 15vw;
+    border-radius: 5px;
+    border-color: orange;
+    font-size: 16px;
+    margin-right: 15px;
+}
