@@ -1,0 +1,37 @@
+@media screen and (min-width: 100px) and (max-width: 900px){
+    body{
+        margin: 0;
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+    }
+    div.cde{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.a {
+        height: 20vh;
+    }
+    div.b{
+        width: 100vw;
+        height: 20vh;
+    }
+    div.c{
+        height: 30vh;
+        width: 30%;
+    }
+    div.d {
+        height: 30vh;
+        width: 30%;
+    }
+     div.e{
+        height: 30vh;
+        width: 30%;
+    }
+    div.f{
+        width: 100%;
+        height: 30vh;
+    }
+    }

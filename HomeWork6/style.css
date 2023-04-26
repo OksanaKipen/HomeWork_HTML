@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.a {
+    height: 20vh;
+    width: 100%;
+    background-color: pink;
+}
+.b {
+    height: 40vh;
+    background-color: lightskyblue;
+}
+.c, .d, .e{
+    height: 40vh;
+    width: 25vw;
+    background-color: deeppink;
+}
+.f{
+    width: 20%;
+    height: 80vh;
+    background-color: plum;
+}
+.cde{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    flex-direction: column;
+    width: 80%;
+}
+.main{
+    display: flex;
+}
